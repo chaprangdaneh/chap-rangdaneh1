@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
+
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    background-color: #690033;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    color: #690033;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #000;
+    font-size: 16px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    transition: 0.3s;
+}
+
+.whatsapp { background: #25D366; }
+.telegram { background: #0088cc; }
+.instagram { background: #E1306C; }
+.rubika { background: #0057A3; }
+
+.btn:hover {
+    opacity: 0.8;
+}
